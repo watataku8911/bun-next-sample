@@ -32,3 +32,44 @@
     --active-background: rgba(255, 255, 255, 0.03);
   }
 }
+
+.wave {
+  clip-path: shape(
+    from 0 20%,
+    smooth to 10% 12% with 5% 16%,
+    smooth to 20% 18% with 15% 15%,
+    smooth to 30% 10% with 25% 14%,
+    smooth to 40% 16% with 35% 13%,
+    smooth to 50% 8% with 45% 12%,
+    smooth to 60% 14% with 55% 11%,
+    smooth to 70% 6% with 65% 10%,
+    smooth to 80% 12% with 75% 9%,
+    smooth to 90% 4% with 85% 8%,
+    smooth to 100% 10% with 95% 7%,
+    line to 100% 100%,
+    line to 0 100%,
+    close
+  );
+}
+
+.custom-shape-divider-bottom-1753775756 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1753775756 svg {
+  position: relative;
+  display: block;
+  width: calc(173% + 1.3px);
+  height: 304px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1753775756 .shape-fill {
+  fill: #ffffff;
+}
